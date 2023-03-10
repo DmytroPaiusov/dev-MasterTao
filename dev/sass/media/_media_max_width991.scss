@@ -1,0 +1,41 @@
+@media screen and (max-width: 991px) {
+    header {
+        height: 50px;
+        margin: 17px auto 15px;
+        .navbar {
+            text-align: center;
+            margin-bottom: 15px;
+            .header-logo {
+                max-width: 126px;
+            }
+
+            .navbar-nav {
+                margin: 40px auto 35px;
+                .nav-item {
+                    .nav-link {
+                        font-size: 24px;
+                        margin-bottom: 27px;
+                        line-height: 1;
+                    }
+                    &:last-child {
+                        .nav-link{
+                        margin-bottom: 0;
+                        }
+                    }
+                }
+
+            }
+        }
+
+        .navbar-collapse {
+            background-color: $accest-background;
+            margin: 15px -12px 0 -12px;
+
+            .btn {
+                padding: 22px 88px;
+                margin-bottom: 60px;
+            }
+
+        }
+    }
+}

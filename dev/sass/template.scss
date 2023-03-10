@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: $font-primary;
+    color: $text;
+    background-color: $background;
+}
+
+a{
+    color: $text;
+}
+
+.container {
+    width: 100%;
+    max-width: 1164px;
+    padding: 0 12px;
+    margin: 0 auto;
+}
+
+.btn {
+	&.btn-primary{
+		padding: 13px 26px;
+		background-color: $primary-color;
+		border-color: $primary-color;
+		font-family: $font-primary;
+		font-weight: 600;
+		font-size: 15px;
+		line-height: 22px;
+		border-radius: 90px;
+		&:focus {
+			box-shadow: none;
+		}
+		&:hover {
+			background: $secondary-color;
+			border-color: $secondary-color;
+		}
+	}
+}
